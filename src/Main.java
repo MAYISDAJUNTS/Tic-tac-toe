@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 /*
 *   stex kodit bacatrutyuny anpayman
-*   en el anglerenav
+*   en el anglerenav no
 *
 *
 * */
