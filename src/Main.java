@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*
+*   stex kodit bacatrutyuny anpayman
+*   en el anglerenav
+*
+*
+* */
 public class Main {
     public static void main(String[] args) {
      char[][] a = new char[3][3];
@@ -42,6 +47,7 @@ public class Main {
             }
         }
     }
+
 
     static boolean isWin ( char[][] a){
         boolean iswin = true;
@@ -88,11 +94,9 @@ public class Main {
         else if( (a[0][0] == '0') && (a[1][0] == '0') && (a[2][0]=='0') ) {
             System.out.println("winner is 0");
         }
-        else if ((a[0][2] == 'x') && (a[1][2] == 'x') && (a[2][2]=='x')) {
+        else if ((a[0][2] == 'x') && (a[1][2] == 'x') && (a[2][2] == 'x')) {
             System.out.println("winner is x");
-        }
-
-        else if( (a[0][2] == '0') && (a[1][2] == '0') && (a[2][2]=='0') ) {
+        } else if ((a[0][2] == '0') && (a[1][2] == '0') && (a[2][2] == '0')) {
             System.out.println("winner is 0");
         } else {
             iswin = false;
