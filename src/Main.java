@@ -1,11 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-/*
-*   stex kodit bacatrutyuny anpayman
-*   en el anglerenav
-*   erkusav el
-* ham el hayeren
-* */
+
 public class Main {
     public static void main(String[] args) {
      char[][] a = new char[3][3];
